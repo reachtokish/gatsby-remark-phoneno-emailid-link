@@ -1,12 +1,30 @@
 {
   "name": "gatsby-remark-phoneno-emailid-link",
   "version": "1.0.0",
-  "description": "",
+  "description": "Gatsby remark plugin to add tel: or mailto: in anchor href",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-remark",
+    "markdown",
+    "remark"
+  ],
+  "author": "reachtokish <patra.kishore65@gmail.com>",
+  "homepage": "https://github.com/reachtokish/gatsby-remark-phoneno-emailid-link#readme",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "gatsby": "^2.20.0"
+  },
+  "engines": {
+    "node": ">=10.13.0",
+    "npm": ">=6",
+    "yarn": ">=1"
+  },
+  "license": "MIT"
 }
